@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "declarationDir": "types",
+    "declarationMap": true,
+    "lib": [
+      "es2015"
+    ],
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "outDir": "dist",
+    "removeComments": true,
+    "target": "ES5",
+    "types": [
+      "mocha",
+      "node",
+      "chai"
+    ]
+  },
+  "include": [
+    "lib/**/*.ts",
+    "tests/**/*.ts",
+    "node_modules/@types/node/globals.d.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "name": "@bencelang/vue-cli-plugin-stylelint",
+  "version": "0.1.0",
+  "private": true,
+  "description": "stylelint plugin for vue-cli",
+  "main": "index.js",
+  "files": [
+    "dist/*",
+    "types/*"
+  ],
+  "scripts": {
+    "lint": "eslint --ext .ts . && tsc --noEmit",
+    "build": "rimraf dist types && tsc --noEmitOnError"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bencelang/vue-cli-plugin-stylelint.git"
+  },
+  "keywords": [
+    "vue",
+    "cli",
+    "stylelint"
+  ],
+  "author": "Bence Láng",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bencelang/vue-cli-plugin-stylelint"
+  },
+  "homepage": "https://github.com/bencelang/vue-cli-plugin-stylelint#readme",
+  "dependencies": {
+    "@vue/cli-shared-utils": "^4.1.2",
+    "stylelint-webpack-plugin": "^1.2.1"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.2.7",
+    "@types/mocha": "^5.2.7",
+    "@types/node": "^13.5.0",
+    "@types/webpack": "^4.41.3",
+    "@typescript-eslint/eslint-plugin": "^2.17.0",
+    "@typescript-eslint/parser": "^2.17.0",
+    "chai": "^4.2.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.9.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "mocha": "^7.0.1",
+    "prettier": "^1.19.1",
+    "rimraf": "^3.0.0",
+    "typescript": "^3.7.5"
+  },
+  "peerDependencies": {
+    "@vue/cli-service": "^3.0.0 || ^4.0.0-0",
+    "stylelint": "*"
+  }
+}
