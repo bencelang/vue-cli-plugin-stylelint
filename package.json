@@ -29,7 +29,7 @@
   "homepage": "https://github.com/bencelang/vue-cli-plugin-stylelint#readme",
   "dependencies": {
     "@vue/cli-shared-utils": "^4.1.2",
-    "stylelint-webpack-plugin": "^1.2.1"
+    "stylelint-webpack-plugin": "^2.0.0"
   },
   "devDependencies": {
     "@types/chai": "^4.2.7",
