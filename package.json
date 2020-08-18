@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/bencelang/vue-cli-plugin-stylelint#readme",
   "dependencies": {
-    "@vue/cli-shared-utils": "^4.1.2",
+    "@vue/cli-shared-utils": "^4.5.4",
     "stylelint-webpack-plugin": "^1.2.1"
   },
   "devDependencies": {
